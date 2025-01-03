@@ -6,23 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FF7394522D28139900F3778C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7394352D28139900F3778C /* Preview Assets.xcassets */; };
+		FF7394532D28139900F3778C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7394492D28139900F3778C /* Assets.xcassets */; };
+		FF7394542D28139900F3778C /* AnimatableSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394372D28139900F3778C /* AnimatableSample.swift */; };
+		FF7394562D28139900F3778C /* AnimationCurvesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394392D28139900F3778C /* AnimationCurvesSample.swift */; };
+		FF7394582D28139900F3778C /* CustomTimingCurveSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73943B2D28139900F3778C /* CustomTimingCurveSample.swift */; };
+		FF7394592D28139900F3778C /* DraggableCircleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73943C2D28139900F3778C /* DraggableCircleSample.swift */; };
+		FF73945A2D28139900F3778C /* ExplicitAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73943D2D28139900F3778C /* ExplicitAnimationSample.swift */; };
+		FF73945B2D28139900F3778C /* HeartBeatAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73943E2D28139900F3778C /* HeartBeatAnimationSample.swift */; };
+		FF73945C2D28139900F3778C /* ImplicitAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73943F2D28139900F3778C /* ImplicitAnimationSample.swift */; };
+		FF73945D2D28139900F3778C /* MatchedGeometrySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394402D28139900F3778C /* MatchedGeometrySample.swift */; };
+		FF73945E2D28139900F3778C /* PageNavigationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394412D28139900F3778C /* PageNavigationSample.swift */; };
+		FF73945F2D28139900F3778C /* MaskPhotoBorderAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394422D28139900F3778C /* MaskPhotoBorderAnimationSample.swift */; };
+		FF7394602D28139900F3778C /* ReduceMotionConfigSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394432D28139900F3778C /* ReduceMotionConfigSample.swift */; };
+		FF7394622D28139900F3778C /* ExplicitScoreCardAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394452D28139900F3778C /* ExplicitScoreCardAnimationSample.swift */; };
+		FF7394632D28139900F3778C /* TriggerButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394462D28139900F3778C /* TriggerButtonSample.swift */; };
+		FF7394642D28139900F3778C /* ViewTransitionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394472D28139900F3778C /* ViewTransitionSample.swift */; };
+		FF7394652D28139900F3778C /* CustomTimingCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944A2D28139900F3778C /* CustomTimingCurveDemo.swift */; };
+		FF7394662D28139900F3778C /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944B2D28139900F3778C /* ExplicitAnimationView.swift */; };
+		FF7394672D28139900F3778C /* ImplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944C2D28139900F3778C /* ImplicitAnimationView.swift */; };
+		FF7394682D28139900F3778C /* MatchedGeometryEffectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944D2D28139900F3778C /* MatchedGeometryEffectDemo.swift */; };
+		FF7394692D28139900F3778C /* SwiftUI_Animations_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944E2D28139900F3778C /* SwiftUI_Animations_DemoApp.swift */; };
+		FF73946A2D28139900F3778C /* ViewTransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73944F2D28139900F3778C /* ViewTransitionDemo.swift */; };
+		FF73946B2D28139900F3778C /* WithTransactionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394502D28139900F3778C /* WithTransactionDemo.swift */; };
+		FF73946D2D2816AF00F3778C /* AnimatableProtocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73946C2D2816AF00F3778C /* AnimatableProtocolDemo.swift */; };
+		FF7394712D28484600F3778C /* AnimatingCustomShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394702D28484600F3778C /* AnimatingCustomShapeDemo.swift */; };
+		FF7394772D286AF800F3778C /* PhaseAnimatorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7394762D286AF800F3778C /* PhaseAnimatorSample.swift */; };
+		FF73947B2D2872CB00F3778C /* LottieAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73947A2D2872CB00F3778C /* LottieAnimationDemo.swift */; };
+		FF73947E2D2873CE00F3778C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FF73947D2D2873CE00F3778C /* Lottie */; };
+		FF7394802D28750000F3778C /* Tick.json in Resources */ = {isa = PBXBuildFile; fileRef = FF73947F2D28750000F3778C /* Tick.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FF44167F2D1A6531006A486B /* SwiftUI Animations Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Animations Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7394352D28139900F3778C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF7394372D28139900F3778C /* AnimatableSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableSample.swift; sourceTree = "<group>"; };
+		FF7394392D28139900F3778C /* AnimationCurvesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurvesSample.swift; sourceTree = "<group>"; };
+		FF73943B2D28139900F3778C /* CustomTimingCurveSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingCurveSample.swift; sourceTree = "<group>"; };
+		FF73943C2D28139900F3778C /* DraggableCircleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableCircleSample.swift; sourceTree = "<group>"; };
+		FF73943D2D28139900F3778C /* ExplicitAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationSample.swift; sourceTree = "<group>"; };
+		FF73943E2D28139900F3778C /* HeartBeatAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatAnimationSample.swift; sourceTree = "<group>"; };
+		FF73943F2D28139900F3778C /* ImplicitAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationSample.swift; sourceTree = "<group>"; };
+		FF7394402D28139900F3778C /* MatchedGeometrySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometrySample.swift; sourceTree = "<group>"; };
+		FF7394412D28139900F3778C /* PageNavigationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageNavigationSample.swift; sourceTree = "<group>"; };
+		FF7394422D28139900F3778C /* MaskPhotoBorderAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPhotoBorderAnimationSample.swift; sourceTree = "<group>"; };
+		FF7394432D28139900F3778C /* ReduceMotionConfigSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionConfigSample.swift; sourceTree = "<group>"; };
+		FF7394452D28139900F3778C /* ExplicitScoreCardAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitScoreCardAnimationSample.swift; sourceTree = "<group>"; };
+		FF7394462D28139900F3778C /* TriggerButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerButtonSample.swift; sourceTree = "<group>"; };
+		FF7394472D28139900F3778C /* ViewTransitionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionSample.swift; sourceTree = "<group>"; };
+		FF7394492D28139900F3778C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF73944A2D28139900F3778C /* CustomTimingCurveDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingCurveDemo.swift; sourceTree = "<group>"; };
+		FF73944B2D28139900F3778C /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
+		FF73944C2D28139900F3778C /* ImplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView.swift; sourceTree = "<group>"; };
+		FF73944D2D28139900F3778C /* MatchedGeometryEffectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectDemo.swift; sourceTree = "<group>"; };
+		FF73944E2D28139900F3778C /* SwiftUI_Animations_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Animations_DemoApp.swift; sourceTree = "<group>"; };
+		FF73944F2D28139900F3778C /* ViewTransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionDemo.swift; sourceTree = "<group>"; };
+		FF7394502D28139900F3778C /* WithTransactionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithTransactionDemo.swift; sourceTree = "<group>"; };
+		FF73946C2D2816AF00F3778C /* AnimatableProtocolDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableProtocolDemo.swift; sourceTree = "<group>"; };
+		FF7394702D28484600F3778C /* AnimatingCustomShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCustomShapeDemo.swift; sourceTree = "<group>"; };
+		FF7394762D286AF800F3778C /* PhaseAnimatorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorSample.swift; sourceTree = "<group>"; };
+		FF73947A2D2872CB00F3778C /* LottieAnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationDemo.swift; sourceTree = "<group>"; };
+		FF73947F2D28750000F3778C /* Tick.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tick.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FF4416812D1A6531006A486B /* SwiftUI Animations Demo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI Animations Demo";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FF44167C2D1A6531006A486B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF73947E2D2873CE00F3778C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +85,8 @@
 		FF4416762D1A6531006A486B = {
 			isa = PBXGroup;
 			children = (
-				FF4416812D1A6531006A486B /* SwiftUI Animations Demo */,
 				FF4416802D1A6531006A486B /* Products */,
+				FF7394512D28139900F3778C /* SwiftUI Animations Demo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +96,57 @@
 				FF44167F2D1A6531006A486B /* SwiftUI Animations Demo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7394362D28139900F3778C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF7394352D28139900F3778C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF7394482D28139900F3778C /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				FF73943F2D28139900F3778C /* ImplicitAnimationSample.swift */,
+				FF7394392D28139900F3778C /* AnimationCurvesSample.swift */,
+				FF73943D2D28139900F3778C /* ExplicitAnimationSample.swift */,
+				FF7394452D28139900F3778C /* ExplicitScoreCardAnimationSample.swift */,
+				FF73943C2D28139900F3778C /* DraggableCircleSample.swift */,
+				FF7394472D28139900F3778C /* ViewTransitionSample.swift */,
+				FF73943B2D28139900F3778C /* CustomTimingCurveSample.swift */,
+				FF7394372D28139900F3778C /* AnimatableSample.swift */,
+				FF73943E2D28139900F3778C /* HeartBeatAnimationSample.swift */,
+				FF7394402D28139900F3778C /* MatchedGeometrySample.swift */,
+				FF7394422D28139900F3778C /* MaskPhotoBorderAnimationSample.swift */,
+				FF7394462D28139900F3778C /* TriggerButtonSample.swift */,
+				FF7394432D28139900F3778C /* ReduceMotionConfigSample.swift */,
+				FF7394412D28139900F3778C /* PageNavigationSample.swift */,
+				FF7394762D286AF800F3778C /* PhaseAnimatorSample.swift */,
+				FF73947A2D2872CB00F3778C /* LottieAnimationDemo.swift */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		FF7394512D28139900F3778C /* SwiftUI Animations Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FF7394492D28139900F3778C /* Assets.xcassets */,
+				FF7394362D28139900F3778C /* Preview Content */,
+				FF7394482D28139900F3778C /* Samples */,
+				FF73944C2D28139900F3778C /* ImplicitAnimationView.swift */,
+				FF73944B2D28139900F3778C /* ExplicitAnimationView.swift */,
+				FF73944F2D28139900F3778C /* ViewTransitionDemo.swift */,
+				FF73944A2D28139900F3778C /* CustomTimingCurveDemo.swift */,
+				FF7394502D28139900F3778C /* WithTransactionDemo.swift */,
+				FF73946C2D2816AF00F3778C /* AnimatableProtocolDemo.swift */,
+				FF73944D2D28139900F3778C /* MatchedGeometryEffectDemo.swift */,
+				FF7394702D28484600F3778C /* AnimatingCustomShapeDemo.swift */,
+				FF73944E2D28139900F3778C /* SwiftUI_Animations_DemoApp.swift */,
+				FF73947F2D28750000F3778C /* Tick.json */,
+			);
+			path = "SwiftUI Animations Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +164,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				FF4416812D1A6531006A486B /* SwiftUI Animations Demo */,
-			);
 			name = "SwiftUI Animations Demo";
 			packageProductDependencies = (
+				FF73947D2D2873CE00F3778C /* Lottie */,
 			);
 			productName = "SwiftUI Animations Demo";
 			productReference = FF44167F2D1A6531006A486B /* SwiftUI Animations Demo.app */;
@@ -94,6 +196,9 @@
 			);
 			mainGroup = FF4416762D1A6531006A486B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FF73947C2D2873CE00F3778C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FF4416802D1A6531006A486B /* Products */;
 			projectDirPath = "";
@@ -109,6 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7394802D28750000F3778C /* Tick.json in Resources */,
+				FF7394522D28139900F3778C /* Preview Assets.xcassets in Resources */,
+				FF7394532D28139900F3778C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +227,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF73946D2D2816AF00F3778C /* AnimatableProtocolDemo.swift in Sources */,
+				FF7394542D28139900F3778C /* AnimatableSample.swift in Sources */,
+				FF7394562D28139900F3778C /* AnimationCurvesSample.swift in Sources */,
+				FF7394582D28139900F3778C /* CustomTimingCurveSample.swift in Sources */,
+				FF7394592D28139900F3778C /* DraggableCircleSample.swift in Sources */,
+				FF7394772D286AF800F3778C /* PhaseAnimatorSample.swift in Sources */,
+				FF73945A2D28139900F3778C /* ExplicitAnimationSample.swift in Sources */,
+				FF73945B2D28139900F3778C /* HeartBeatAnimationSample.swift in Sources */,
+				FF73945C2D28139900F3778C /* ImplicitAnimationSample.swift in Sources */,
+				FF73945D2D28139900F3778C /* MatchedGeometrySample.swift in Sources */,
+				FF73947B2D2872CB00F3778C /* LottieAnimationDemo.swift in Sources */,
+				FF73945E2D28139900F3778C /* PageNavigationSample.swift in Sources */,
+				FF73945F2D28139900F3778C /* MaskPhotoBorderAnimationSample.swift in Sources */,
+				FF7394602D28139900F3778C /* ReduceMotionConfigSample.swift in Sources */,
+				FF7394622D28139900F3778C /* ExplicitScoreCardAnimationSample.swift in Sources */,
+				FF7394632D28139900F3778C /* TriggerButtonSample.swift in Sources */,
+				FF7394642D28139900F3778C /* ViewTransitionSample.swift in Sources */,
+				FF7394652D28139900F3778C /* CustomTimingCurveDemo.swift in Sources */,
+				FF7394712D28484600F3778C /* AnimatingCustomShapeDemo.swift in Sources */,
+				FF7394662D28139900F3778C /* ExplicitAnimationView.swift in Sources */,
+				FF7394672D28139900F3778C /* ImplicitAnimationView.swift in Sources */,
+				FF7394682D28139900F3778C /* MatchedGeometryEffectDemo.swift in Sources */,
+				FF7394692D28139900F3778C /* SwiftUI_Animations_DemoApp.swift in Sources */,
+				FF73946A2D28139900F3778C /* ViewTransitionDemo.swift in Sources */,
+				FF73946B2D28139900F3778C /* WithTransactionDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF73947C2D2873CE00F3778C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF73947D2D2873CE00F3778C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF73947C2D2873CE00F3778C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF4416772D1A6531006A486B /* Project object */;
 }
